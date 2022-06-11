@@ -1,0 +1,240 @@
+body{
+    background-color: #f7f7f7;
+   
+}
+#menu{
+background: -webkit-linear-gradient(90deg, #f7f7f7 10%, #035AA6 80%);
+background: -moz-linear-gradient(90deg,#f7f7f7 10%, #035AA6 80%);
+background: -ms-linear-gradient(90deg, #f7f7f7 10%, #035AA6 80%);
+background: -o-linear-gradient(90deg, #f7f7f7 10%, #035AA6 80%);
+background: linear-gradient(90deg, #f7f7f7 10%, #035AA6 80%);
+}
+#navbarTogglerDemo01,a{
+    color:black;
+}
+#footer {
+    background: -webkit-linear-gradient(90deg, #f7f7f7 10%, #035AA6 90%);
+background: -moz-linear-gradient(90deg,#f7f7f7 10%, #035AA6 90%);
+background: -ms-linear-gradient(90deg, #f7f7f7 10%, #035AA6 90%);
+background: -o-linear-gradient(90deg, #f7f7f7 10%, #035AA6 90%);
+background: linear-gradient(90deg, #f7f7f7 10%, #035AA6 90%);
+
+}
+#separacion{
+    margin-top:50px;
+}
+
+#login.contain #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 320px;
+    border: 1px solid #9C9C9C;
+    background-color: #eaeaea;
+  }
+  #login .contain #login-row #login-column #login-box #login-form {
+    padding: 20px;
+  }
+  #login .contain #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+  }
+section {
+  width: 100%;
+  height: 100%;
+  padding:0px;
+  margin:0px;
+}
+.parallax{
+  background:#f7f7f7 fixed no-repeat 50% 50%;
+  background-size: cover;
+}
+#seccion1{
+  background-image: url(../image/parax1.jpeg);
+  background-size: cover;
+}
+#seccion2{
+  background-image: url(../image/parax2.jpg);
+}
+#seccion3{
+  background-image: url(../image/parax3.jpg);
+}
+.imagenPro img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#img-producto{
+      width: 100%;
+      position: relative;
+      height: 225px;
+      margin-bottom: 5px;
+      box-shadow: 0px 0px 3px rgb(0, 0, 0,0.75);
+}
+.icons{
+color:black;
+}
+.icons:hover{
+  fill:#035AA6;
+  height:30px;
+  width: 30px;
+}
+.contenido{
+  position: relative;
+  display: inline-block;
+  background-color: #000000;
+}
+.centrado{
+  position:absolute;
+  top:40%;
+  left:50%;
+  width: 95%;
+  transform: translate(-50%,-50%);
+  color:white;
+}
+.centrado,#presentacion{
+  background-color: rgb(255, 255, 255,0.1);
+  border-radius: 30px;
+}
+#nosotros{
+  width: 100%;
+  height: auto;
+}
+
+/*------------------tablas-----------------*/
+/* typography */
+
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: center;
+}
+
+/* CARDS BONIS */
+  
+.shop-card {
+  width: 95%;
+  background: #e9eef8;
+  box-shadow: 0 10px 20px rgba(0,0,0,.3);
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 25px;
+  text-align: center;
+  z-index: 2;
+}
+
+  figure {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    outline: none!important;
+  }
+
+ 
+    #imgPrross {
+      margin: -95px 0 -60px;
+      width: 100%;
+    }
+  
+
+  .title {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #23211f;
+    margin-bottom: 5px;
+  }
+
+  .desc {
+    font-size: 20px;
+    opacity: 1;
+    margin-bottom: 10px;
+  }
+
+  .cta {
+    padding: 20px 20px 5px;
+
+
+  }
+
+  .price {
+    float: left;
+    color: #1070ee;
+    font-size: 22px;
+    font-weight: 900;
+    padding-top: 2px;
+    transition: color .3s ease-in-out;
+    margin-top: 4px;
+  }
+
+  #btnCompra {
+      margin: 10px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #0051ff;
+    padding: 12px 18px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    line-height: .95;
+    border: none;
+    background: none;
+    outline: none;
+    border: 1px solid #0059ff;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .bg {
+      width: 101%;
+      height: 101%;
+      display: block!important;
+      z-index: -1;
+      opacity: 0;
+      transition: all .3s ease-in-out;
+      background: linear-gradient(135deg, #1329a6, #3479d3);
+    }
+    .bg {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(15deg, #d33f34 50%, #a61322 50.1%);
+      z-index: 1;
+      display: none;
+    }
+    a[name*="comprar"]{
+      margin: 10px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #0051ff;
+    padding: 12px 18px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    line-height: .95;
+    border: none;
+    background: none;
+    outline: none;
+    border: 1px solid #0059ff;
+    border-radius: 10px;
+    overflow: hidden;
+
+    }

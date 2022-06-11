@@ -1,0 +1,57 @@
+//Tipo de producto
+http://localhost/Tienda/panel/tipo/ws.tipo.php?id_tipo=13
+{
+    "tipo":[{
+        "tipo":"sasasasa"
+    }]
+}
+
+//paqueteria
+http://localhost/Tienda/panel/paqueteria/ws.paqueteria.php
+{
+    "paqueteria":[{
+        "nombre":"fedexbeta"
+    }]
+}
+
+//Rol
+http://localhost/Tienda\panel\rol\ws.rol.php
+{
+    "rol":[{
+        "rol":"proveedorrrrr"
+    }]
+}
+
+//usuario
+http://localhost/Tienda\panel\usuario\ws.usuario.php
+{
+    "usuario":[{
+        "correo":"core@gmail.com",
+        "contrasena":"1234"
+    }]
+}
+
+//Proveedor
+http://localhost/Tienda\panel\proveedores\ws.proveedores.php
+{
+    "proveedor":[{
+        "nombre":"vitamic",
+        "correo":"vic@gmail.com",
+        "telefono":"38599"
+    }]
+}
+
+//Producto
+http://localhost/Tienda\panel\productos\ws.productos.php
+{
+    "producto":[{
+        "nombre":"fortix",
+        "descripcion":"queratirina sabor a durazno",
+        "p_mayoreo":350,
+        "p_medio_mayoreo":400,
+        "p_publico":450,
+        "stok":15,
+        "id_tipo":3,
+        "id_proveedor":6
+    }]
+}
